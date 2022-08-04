@@ -1,0 +1,29 @@
+version: "3"
+services:
+	nginx:
+		build: ./requirements/nginx
+		dockerfile: Dockerfile
+		container_name: nginx
+		port:
+			- "443:443"
+		depends_on:
+			wordpress:
+				condition: service_healthy
+		env_file: .env
+	wordpress:
+		build: ./requirements/wordpress
+		dockerfile: Dockerfile
+		container_name: wordpress
+		port:
+			- "9000:9000"
+		depends_on:
+			mariadb:
+				condition: service_healthy
+		env_file: .env
+	mariadb:
+		build: ./requirements/mariadb
+		dockerfile: Dockerfile
+		container_name: mariadb
+		port:
+			- "3306:3306"
+		env_file: .env
