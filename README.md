@@ -16,3 +16,7 @@ https://www.geeksforgeeks.org/practical-uses-of-openssl-command-in-linux/
 NGINX
 
 https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
+
+GESTION DES LOG
+https://docs.docker.com/config/containers/logging/
+
