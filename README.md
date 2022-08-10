@@ -20,3 +20,6 @@ https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
 GESTION DES LOG
 https://docs.docker.com/config/containers/logging/
 
+SSL CONFIGURATION NGINX.CONF
+https://medium.com/@mvuksano/how-to-properly-configure-your-nginx-for-tls-564651438fe0
+
