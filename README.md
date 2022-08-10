@@ -3,10 +3,24 @@
 Pour bien démarrer le projet, quand on ne connait pas du tout docker, il est nécessaire de commencer par un tutoriel plusieurs options :
 
 ## Ressources pour démarrer : 
+
 Un super support pour commencer à découvrir l'univers de Docker avec une plateforme d'exercices intégrée :
 https://kodekloud.com/courses/docker-for-the-absolute-beginner/
+
 Le site officiel de docker :
 https://docs.docker.com
+
+##Découper le projet et comprendre la structure
+
+La lecture du sujet nous apprend beaucoup sur la structure que doit avoir notre projet. On peut grâce a cela commencer à écrire notre docker-compose.yalm
+
+##Dockerfile
+
+Ce fichier contient toutes les informations pour l'installation de ce que l'on souhaite (serveur, base de donnée, service de gestion d'emails, etc.) dans notre container. Il a une structure bien précise qui doit être respectée. 
+
+##SSL : certicat et protocole
+pour assurer une connexion sécurisé avec une encryptation de type x509. principe de l'encryptation asymétrique, qu'on certifie pour passer sur une encryptation synétrique. 
+
 
 
 
