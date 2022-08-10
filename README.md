@@ -2,11 +2,10 @@
 
 Pour bien démarrer le projet, quand on ne connait pas du tout docker, il est nécessaire de commencer par un tutoriel plusieurs options :
 
-## Kodekloud : 
-Un super support pour commencer à découvrir l'univers de Docker avec une plateforme d'exercices intégrée  
+## Ressources pour démarrer : 
+Un super support pour commencer à découvrir l'univers de Docker avec une plateforme d'exercices intégrée :
 https://kodekloud.com/courses/docker-for-the-absolute-beginner/
-
-## Le site officiel de docker :
+Le site officiel de docker :
 https://docs.docker.com
 
 
