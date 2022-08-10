@@ -14,7 +14,7 @@ https://docs.docker.com
 
 La lecture du sujet nous apprend beaucoup sur la structure que doit avoir notre projet. On peut grâce a cela commencer à écrire notre docker-compose.yalm
 
-##Dockerfile
+## Dockerfile
 
 Ce fichier contient toutes les informations pour l'installation de ce que l'on souhaite (serveur, base de donnée, service de gestion d'emails, etc.) dans notre container. Il a une structure bien précise qui doit être respectée. 
 
