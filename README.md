@@ -21,6 +21,10 @@ Ce fichier contient toutes les informations pour l'installation de ce que l'on s
 ## SSL : certicat et protocole
 pour assurer une connexion sécurisé avec une encryptation de type x509. principe de l'encryptation asymétrique, qu'on certifie pour passer sur une encryptation synétrique. 
 
+## docker-compose.ylm
+
+Declarer volume : https://stackoverflow.com/questions/35841241/docker-compose-named-mounted-volume
+
 
 
 
